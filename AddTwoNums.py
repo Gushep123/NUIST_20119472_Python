@@ -1,6 +1,11 @@
-num1=1
-num2=2
-# Add two numbers
-sum=num1+num2
-# Display the sum 
-print('The sum of {0} and {1} is {2}'.format(num1,num2,sum))
+# Add Two Numbers in Python
+# Author: Yang Letian
+# Using user input
+
+# taking user input
+a = input("First number: ")
+b = input("Second number: ")
+
+# converting input to float and adding
+res = float(a) + float(b)
+print(res)
